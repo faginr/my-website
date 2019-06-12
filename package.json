@@ -1,12 +1,22 @@
 {
   "name": "my-website",
   "version": "1.0.0",
-  "description": "Mock Website for Deployment test",
+  "description": "Mock Website for Testing Deployment",
   "main": "index.js",
   "scripts": {
     "deploy": "gh-pages -d dist"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faginr/my-website.git"
+  },
+  "author": "Rex Fagin",
   "license": "ISC",
-  "homepage": "https://faginr.github.io/my-website"
+  "bugs": {
+    "url": "https://github.com/faginr/my-website/issues"
+  },
+  "homepage": "https://github.com/faginr/my-website",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }
